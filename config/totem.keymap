@@ -109,7 +109,7 @@
             //Magic
             bindings = <&kp O>, <&efore>, <&kp Y>, <&kp Y>, <&kp U>, <&unction>, <&kp Y>, <&on>, <&ust>, <&kp S>, <&kp K>, <&ent>, <&ion>, <&kp A>, <&kp Y>, <&kp L>, <&kp K>, <&ment>, <&kp E>, <&er>, <&hich>, <&es>, <&kp P>, <&spacebut>, <&dotslash>, <&kp STAR>, <&kp STAR>, <&kp GT>, <&kp GT>, <&the>, <&the>, <&the>, <&kp LT>, <&kp GT>, <&kp SEMI>, <&kp SEMI>, <&kp SEMI>, <&kp SEMI>;
             //Leadek
-            antecedents = <A B C D E F G I J K L M N O P R S T U V W X Y , . / * - = SPACE RET TAB GT LT RBKT DQT RBRC RPAR>;
+            antecedents = <A B C D E F G I J K L M N O P R S T U V W X Y SEMI DOT SLASH STAR MINUS EQUAL SPACE RET TAB GT LT RBKT DQT RBRC RPAR>;
             max-delay-ms = <10000>;
         };
      };
