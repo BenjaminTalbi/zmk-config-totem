@@ -41,57 +41,57 @@
         unction: unction {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp U &kp N &kp K &kp T &kp I &kp O &kp n>;
+            bindings = <&kp U &kp N &kp K &kp T &kp I &kp O &kp N>;
         };
         on: on {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp O &kp n>;
+            bindings = <&kp O &kp N>;
         };
         ust: ust {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp U &kp S &kp t>;
+            bindings = <&kp U &kp S &kp T>;
         };
         ent: ent {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp E &kp N &kp t>;
+            bindings = <&kp E &kp N &kp T>;
         };
         ion: ion {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp I &kp O &kp n>;
+            bindings = <&kp I &kp O &kp N>;
         };
         ment: ment {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp M &kp E &kp N &kp t>;
+            bindings = <&kp M &kp E &kp N &kp T>;
         };
         er: er {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp E &kp r>;
+            bindings = <&kp E &kp R>;
         };
         hich: hich {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp H &kp I &kp C &kp h>;
+            bindings = <&kp H &kp I &kp C &kp H>;
         };
         es: es {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp E &kp s>;
+            bindings = <&kp E &kp S>;
         };
         spacebut: spacebut {  
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp SPACE> , <&kp b> , <&kp u> , <&kp t>;
+            bindings = <&kp SPACE &kp B &kp U &kp T>;
         };
         the: the {  
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp T &kp H &kp e>;
+            bindings = <&kp T &kp H &kp E>;
         };
         dotslash: dotslash {  
             compatible = "zmk,behavior-macro";
