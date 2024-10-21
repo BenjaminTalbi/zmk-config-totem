@@ -30,13 +30,7 @@
         efore: erfore {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings
-                = <&macro_tap &kp e>
-                , <&macro_tap &kp f>
-                , <&macro_tap &kp o>
-                , <&macro_tap &kp r>
-                , <&macro_tap &kp r>
-                ;
+            bindings = <&macro_tap &kp e &kp f &kp o &kp r &kp e>;
         };
         unction: unction {
             compatible = "zmk,behavior-macro";
