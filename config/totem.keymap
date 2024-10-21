@@ -35,113 +35,62 @@
         unction: unction {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings
-                = <&macro_tap &kp u>
-                , <&macro_tap &kp n>
-                , <&macro_tap &kp k>
-                , <&macro_tap &kp t>
-                , <&macro_tap &kp i>
-                , <&macro_tap &kp o>
-                , <&macro_tap &kp n>
-                ;
+            bindings = <&macro_tap &kp u &kp n &kp k &kp t &kp i &kp o &kp n>;
         };
         on: on {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings
-                = <&macro_tap &kp o>
-                , <&macro_tap &kp n>
-                ;
+            bindings = <&macro_tap &kp o &kp n>;
         };
         ust: ust {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings
-                = <&macro_tap &kp u>
-                , <&macro_tap &kp s>
-                , <&macro_tap &kp t>
-                ;
+            bindings = <&macro_tap &kp u &kp s &kp t>;
         };
         ent: ent {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings
-                = <&macro_tap &kp e>
-                , <&macro_tap &kp n>
-                , <&macro_tap &kp t>
-                ;
+            bindings = <&macro_tap &kp e &kp n &kp t>;
         };
         ion: ion {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings
-                = <&macro_tap &kp i>
-                , <&macro_tap &kp o>
-                , <&macro_tap &kp n>
-                ;
+            bindings = <&macro_tap &kp i &kp o &kp n>;
         };
         ment: ment {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings
-                = <&macro_tap &kp m>
-                , <&macro_tap &kp e>
-                , <&macro_tap &kp n>
-                , <&macro_tap &kp t>
-                ;
+            bindings = <&macro_tap &kp m &kp e &kp n &kp t>;
         };
         er: er {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings
-                = <&macro_tap &kp e>
-                , <&macro_tap &kp r>
-                ;
+            bindings = <&macro_tap &kp e &kp r>;
         };
         hich: hich {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings
-                = <&macro_tap &kp h>
-                , <&macro_tap &kp i>
-                , <&macro_tap &kp c>
-                , <&macro_tap &kp h>
-                ;
+            bindings = <&macro_tap &kp h &kp i &kp c &kp h>;
         };
         es: es {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings
-                = <&macro_tap &kp e>
-                , <&macro_tap &kp s>
-                ;
+            bindings = <&macro_tap &kp e &kp s>;
         };
         spacebut: spacebut {  
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings
-                = <&macro_tap &kp SPACE>
-                , <&macro_tap &kp b>
-                , <&macro_tap &kp u>
-                , <&macro_tap &kp t>
-                ;
+            bindings = <&macro_tap &kp SPACE> , <&macro_tap &kp b> , <&macro_tap &kp u> , <&macro_tap &kp t>;
         };
         the: the {  
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings
-                = <&macro_tap &kp t>
-                , <&macro_tap &kp h>
-                , <&macro_tap &kp e>
-                ;
+            bindings = <&macro_tap &kp t &kp h &kp e>;
         };
         dotslash: dotslash {  
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings
-                = <&macro_tap &kp DOT>
-                , <&macro_tap &kp SLASH>
-                ;
+            bindings = <&macro_tap &kp DOT &kp SLASH>;
         };
      };
 
