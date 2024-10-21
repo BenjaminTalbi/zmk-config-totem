@@ -137,7 +137,7 @@ label= "BASE"                              ;
                 &kp V       &kp M       &kp L       &kp C       &kp P           &kp B       &mgc        &kp U       &kp O       &kp Q
                 &mt LGUI S  &mt LALT T  &mt LCTRL R &mt LSHFT D &kp Y           &kp F       &mt RSHFT N &mt RCTRL E &mt RALT A  &mt RGUI I
     &kp DOT     &kp X       &kp K       &kp J       &kp G       &kp W           &kp Z       &kp H       &kp COMMA   &kp DOT     &kp FSLH    &kp DOT
-                                        &kp DOT   &kp DEL       &kp SPACE       &sk SHIFT   &key_repeat &kp DOT
+                                        &kp DOT   &kp DEL       &kp SPACE       &sk SHIFT   &kp DOT     &kp DOT
                         >;
                 };
         };
