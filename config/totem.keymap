@@ -31,11 +31,11 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <
-                &kp e 
-                &kp f 
-                &kp o 
-                &kp r 
-                &kp e
+                &kp E 
+                &kp F 
+                &kp O 
+                &kp R 
+                &kp E
             >;
         };
         unction: unction {
